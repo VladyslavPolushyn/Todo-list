@@ -1,0 +1,26 @@
+.todo-list-item {
+  font-weight: bold;
+  color: black;
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  user-select: none;
+}
+
+.todo-list-item:hover {
+  cursor: pointer;
+}
+
+.todo-list-item.done {
+  text-decoration: line-through;
+}
+
+.todo-list-item.important {
+  font-weight: bold;
+  color: rgb(0,37,172);
+}
+
+.todo-list-item__controls button {
+  color: #fff;
+  width: 38px;
+  margin-left: 5px;
+}
